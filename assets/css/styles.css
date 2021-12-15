@@ -241,7 +241,12 @@ button{
 .scroll-header{
   box-shadow: 0 1px 4px hsla(0, 4%, 15%, .1);
 }
+
 /* Active link */
+.active-link {
+  color: var(--first-color);
+}
+
 
 /*=============== HOME ===============*/
 .home__container{
@@ -442,11 +447,128 @@ button{
   background-color: var(--first-color);
 }
 
-/*Class Swiper*/
-
 /*=============== MESSAGE ===============*/
+.message__container {
+  row-gap: 3rem;
+  background-color: var(--first-color);
+  padding: 2.5rem 1.5rem 2.5rem;
+  border-radius: 1.25rem;
+}
+
+.message__form {
+  text-align: center;
+}
+
+.message__title {
+  color: #fff;
+  margin-bottom: var(--mb-1-5);
+}
+
+.message__input {
+  width: 100%;
+  background: #fff;
+  color: var(--text-color);
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  border: none;
+  outline: none;
+  margin-bottom: var(--mb-1);
+}
+
+.message__button {
+  background-color: var(--title-color);
+  width: 100%;
+}
+
+.message__button:hover {
+  background-color: var(--title-color);
+}
+
+.message__img {
+  width: 200px;
+  justify-self: center;
+  transform: rotate(15deg);
+}
 
 /*=============== FOOTER ===============*/
+.footer {
+  overflow: hidden;
+}
+
+.footer__container {
+  position: relative;
+  row-gap: 2rem;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--title-color);
+  font-weight: var(--font-medium);
+}
+
+.footer__logo-img {
+  width: 1.5rem;
+}
+
+.footer__description {
+  font-size: var(--small-font-size);
+}
+
+.footer__logo, 
+.footer__title {
+  margin-bottom: var(--mb-1);
+}
+
+.footer__title {
+  font-size: var(--h3-font-size);
+}
+
+.footer__links, 
+.footer__aviables {
+  display: flex;
+  flex-direction: column;
+  row-gap: .75rem;
+}
+
+.footer__link {
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__link:hover {
+  color: var(--title-color);
+}
+
+.footer__aviable-img {
+  width: 100px;
+  cursor: pointer;
+}
+
+.footer__copy {
+  display: block;
+  margin: 3.5rem 0 1rem 0;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
+.footer__img1, 
+.footer__img2 {
+  position: absolute;
+  width: 100px;
+}
+
+.footer__img1 {
+  top: 25%;
+  right: 2rem;
+}
+
+.footer__img2 {
+  top: 75%;
+  right: -4rem;
+}
 
 /*=============== SCROLL UP ===============*/
 
